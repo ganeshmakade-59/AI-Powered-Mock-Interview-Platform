@@ -36,8 +36,12 @@ app.use(
     origin: (origin, callback) => {
       if (
         !origin ||
-        allowedOrigins.includes(origin) ||
-        origin.endsWith(".vercel.app")
+        origin === "http://localhost:5173" ||
+        origin === process.env.CLIENT_URL ||
+        (
+          origin.startsWith("https://ai-powered-mock-interview-platform-") &&
+          origin.endsWith(".vercel.app")
+        )
       ) {
         callback(null, true);
       } else {
