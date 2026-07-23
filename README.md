@@ -5,6 +5,7 @@
 
 
 🔗 **Live Demo:** [https://ai-powered-mock-interview-platform-alpha.vercel.app]
+
 📽️ **Demo Video / GIF:** [Add a Loom or YouTube walkthrough link here]
 
 ---
@@ -107,6 +108,7 @@ No scheduling, no waiting, no cost per session — just open the browser and pra
                  Feedback)        Speech)     Text)
 
 ---
+```
 
 ## ⚙️ Getting Started
 
