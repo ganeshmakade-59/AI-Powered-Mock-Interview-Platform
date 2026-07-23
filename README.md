@@ -4,7 +4,7 @@
 > Practice technical interviews with an AI interviewer — voice-based Q&A, live coding challenges, and instant, detailed feedback. Available 24/7, tailored to your resume.
 
 
-🔗 **Live Demo:** [Add your deployed link here]
+🔗 **Live Demo:** [https://ai-powered-mock-interview-platform-alpha.vercel.app]
 📽️ **Demo Video / GIF:** [Add a Loom or YouTube walkthrough link here]
 
 ---
@@ -86,10 +86,25 @@ No scheduling, no waiting, no cost per session — just open the browser and pra
 ## 📂 Project Structure
 
 ```
-project/
-├── server/    # Backend application (API, AI logic, DB models)
-└── client/    # Frontend application (React UI)
-```
+                           👤 User
+                             │
+                             ▼
+                    React Frontend 
+                             │
+        ┌────────────────────┼────────────────────┐
+        │                    │                    │
+        ▼                    ▼                    ▼
+ Resume Upload        Voice Interaction      Live Coding
+                             │
+                             ▼
+                 Express.js Backend 
+                             │
+      ┌──────────────┬───────────────┬───────────────┐
+      │              │               │               │
+      ▼              ▼               ▼               ▼
+ MongoDB Atlas   Google Gemini    Murf AI     AssemblyAI
+(Database)       (Questions &     (Text-to-   (Speech-to-
+                 Feedback)        Speech)     Text)
 
 ---
 
@@ -108,8 +123,8 @@ project/
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone  https://github.com/ganeshmakade-59/AI-Powered-Mock-Interview-Platform.git
+cd AI-Powered-Mock-Interview-Platform
 
 # Install backend dependencies
 cd server
@@ -179,8 +194,8 @@ This project is licensed under the MIT License — see the [LICENSE](./LICENSE) 
 ## 👤 Author
 
 **[Your Name]**
-- Portfolio: [your-portfolio-link]
-- LinkedIn: [your-linkedin-link]
+- Portfolio: [https://github.com/ganeshmakade-59]
+- LinkedIn: [https://www.linkedin.com/in/ganesh-makade/]
 - Email: [your-email]
 
 ---
