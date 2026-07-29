@@ -6,8 +6,6 @@
 
 🔗 **Live Demo:** [https://ai-powered-mock-interview-platform-alpha.vercel.app]
 
-📽️ **Demo Video / GIF:** [Add a Loom or YouTube walkthrough link here]
-
 ---
 
 ## 📸 Preview
