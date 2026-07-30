@@ -196,7 +196,7 @@ This project is licensed under the MIT License — see the [LICENSE](./LICENSE) 
 **[Your Name]**
 - Portfolio: [https://github.com/ganeshmakade-59]
 - LinkedIn: [https://www.linkedin.com/in/ganesh-makade/]
-- Email: [your-email]
+- Email: [makadeganesh59@gmial.com]
 
 ---
 
