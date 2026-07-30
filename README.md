@@ -128,7 +128,7 @@ cd AI-Powered-Mock-Interview-Platform
 
 # Install backend dependencies
 cd server
-npm install
+npm start
 
 # Install frontend dependencies
 cd ../client
