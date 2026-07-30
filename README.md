@@ -128,7 +128,7 @@ cd AI-Powered-Mock-Interview-Platform
 
 # Install backend dependencies
 cd server
-npm start
+npm install
 
 # Install frontend dependencies
 cd ../client
@@ -152,7 +152,7 @@ PORT=5000
 ```bash
 # Start backend
 cd server
-npm run dev
+npm start
 
 # Start frontend (in a new terminal)
 cd client
